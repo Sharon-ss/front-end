@@ -1,0 +1,40 @@
+.navbar {
+    background-color: aqua;
+    padding: 1rem;
+}
+
+.nav-list {
+    list-style: lower-roman;
+    display: flexbox;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item a,
+.nav-button {
+    color: beige;
+    text-decoration: dotted;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.sub-menu {
+    list-style: georgian;
+    margin: 0.5rem 0 0 0;
+    padding: 0;
+    background-color: #444;
+    position: absolute;
+}
+
+.sub-menu li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.sub-menu li a:hover {
+    background-color: #555;
+}
